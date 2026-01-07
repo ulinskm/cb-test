@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: apt-get install traceroute && traceroute codebuild.ap-southeast-1.amazonaws.com
+        run: sudo apt-get install traceroute && traceroute codebuild.ap-southeast-1.amazonaws.com
